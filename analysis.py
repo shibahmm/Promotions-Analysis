@@ -38,6 +38,6 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
 
+df = pd.read_csv("C:/Users/Zero/.cache/kagglehub/datasets/ahsan81/superstore-marketing-campaign-dataset/versions/7/superstore_data.csv")
 
-
-
+print(df)
